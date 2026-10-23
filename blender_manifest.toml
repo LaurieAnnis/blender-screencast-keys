@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "screencast_keys_classic"
+version = "2.0.0"
+name = "Screencast Keys"
+tagline = "Display keys pressed and mouse clicks in the 3D View"
+maintainer = "Laurie Annis"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+copyright = [
+  "2010-2026 Paulo Gomes, Bart Crouch, John E. Herrenyo, Gaia Clary, Pablo Vazquez",
+]
+
+tags = ["3D View"]
