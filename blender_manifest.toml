@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "screencast_keys_classic"
-version = "2.0.0"
+version = "2.1.0"
 name = "Screencast Keys"
 tagline = "Display keys pressed and mouse clicks in the 3D View"
 maintainer = "Laurie Annis"

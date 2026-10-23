@@ -12,9 +12,10 @@ You don't need a GitHub account, and you don't need to unzip anything.
 ### Step 1: Download the add-on
 
 1. On this GitHub page, look at the **right-hand side** for a section called
-   **Releases**, and click the release under it (for example **v2.0.0**).
+   **Releases**, and click the newest release (the one marked **Latest**).
    *(On a phone or narrow window, Releases is further down the page.)*
-2. Under **Assets**, click **`screencast_keys_classic-2.0.0.zip`** to download it.
+2. Under **Assets**, click the file that starts with
+   **`screencast_keys_classic-`** and ends in **`.zip`** to download it.
 3. **Don't unzip it.** Blender wants the zip file just as it is. It will be in
    your **Downloads** folder.
 
@@ -58,7 +59,28 @@ While it's running, the same panel lets you change the text size, where it sits
 on screen, its color, how long keys stay visible, whether a mouse picture is
 shown, and more. Just try the settings. You can't break anything.
 
+**Putting it somewhere else on screen:**
+
+- **Position X** moves it from the left edge (0) to the right edge (100).
+  **Position Y** moves it from the bottom (0) to the top (100).
+- The **Left / Center / Right** buttons under Position choose how the keys line
+  up:
+  - **Left:** keys line up on the left and get longer to the right. Good for
+    the left side of the screen.
+  - **Center:** keys are centered on the position. Good for the middle.
+  - **Right:** keys line up on the right and get longer to the left. Good for
+    the right side of the screen, for example X at 90 to 100.
+- **Icon Side: Left / Right** chooses which side of the keys the little mouse
+  picture goes on.
+
+It always stays inside the 3D view, even when the N panel is open.
+
 Press **N** again to hide the panel. The key display keeps working.
+
+### Getting a newer version later
+
+Download the newest zip from **Releases** and install it the same way
+(Step 2). It replaces the old version, and your settings stay the same.
 
 ---
 
@@ -76,7 +98,8 @@ longer exist), so it runs on Blender 4.2 and later, including 5.2.
 - **Use:** in the 3D View, press **N** to open the sidebar and go to the
   **Screencast Keys** tab.
 - Click **Start Display** (or press **Shift+Alt+C** with the mouse over the 3D View).
-- Once it's running, the panel lets you change text size, position, colors,
+- Once it's running, the panel lets you change text size, position,
+  alignment (left / center / right), mouse icon side, colors,
   fade time, the mouse icon, the background box, the "last operator" label and
   an elapsed-time counter.
 - Click **Stop Display** (or press Shift+Alt+C again) to turn it off.
